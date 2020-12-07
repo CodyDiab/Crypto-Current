@@ -15,7 +15,7 @@ componentDidMount(){
     var day = date.getDate();
     var month = date.getMonth();
 
-    const url = `http://newsapi.org/v2/everything?language=en&q=bitcoin&from=${year-month-day}&sortBy=publishedAt&apiKey=0971b0705e864f828690bc27831d3770`;
+    const url = `https://newsapi.org/v2/everything?language=en&q=bitcoin&from=${year-month-day}&sortBy=publishedAt&apiKey=0971b0705e864f828690bc27831d3770`;
 
     fetch(url)
      .then((response)=> {
