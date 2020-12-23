@@ -10,7 +10,9 @@ class App extends Component {
          
           <h1 className="App-title">Crypto Current</h1>
         </header>
+      <div className="feed">
        <News/>
+       </div>
       </div>
     );
   }
